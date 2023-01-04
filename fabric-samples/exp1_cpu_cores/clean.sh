@@ -23,3 +23,8 @@ echo "T716rrs722" | sudo -S kill -9 `pidof node`
 echo "T716rrs722" | sudo -S kill -9 `pidof nodejs`
 echo "T716rrs722" | sudo -S kill -9 `pidof peer`
 echo "T716rrs722" | sudo -S kill -9 `pidof dockerd`
+
+# Remove result files
+echo "T716rrs722" | sudo -S -k rm -rf $HOME/fabric-samples/demo-first/workload/result/benchlog
+echo "T716rrs722" | sudo -S -k rm -rf $HOME/fabric-samples/demo-first/workload/result/peerlog
+echo "T716rrs722" | sudo -S -k rm -rf $HOME/fabric-samples/demo-first/workload/result/ordererlog
