@@ -17,3 +17,8 @@ echo "T716rrs722" | sudo -S -k rm -rf $HOME/fabric-samples/demo-first/crypto-con
 
 # Remove image
 docker rmi $(docker images -a | grep 'mycc'| awk '{print $1 }')
+
+# Remove result files
+echo "T716rrs722" | sudo -S -k rm -rf $HOME/fabric-samples/demo-first/workload/result/benchlog
+echo "T716rrs722" | sudo -S -k rm -rf $HOME/fabric-samples/demo-first/workload/result/peerlog
+echo "T716rrs722" | sudo -S -k rm -rf $HOME/fabric-samples/demo-first/workload/result/ordererlog
