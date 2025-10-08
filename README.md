@@ -20,7 +20,7 @@ Please see the modified file transaction.js: https://github.com/Canhui/FabricDis
 
 Table 1: The throughput and latency of an endorsing peer with c=1,2,4 CPU cores in the local cluster
 
-| $c$  | $\lambda^e$ | $\mu^e$ | $\rho^e$ | $T_s^e$ | $T_q_e$ | $T_{comm}^e$        | $T^e$               | $T^e$  |
+| $c$  | $\lambda^e$ | $\mu^e$ | $\rho^e$ | $T_s^e$ | $T_q^e$ | $T_{comm}^e$        | $T^e$               | $T^e$  |
 | ---- | ----------- | ------- | -------- | ------- | ------- | ------------------- | ------------------- | ------ |
 | 1    | 209         | 780     | 0.2679   | 0.0013  | 0.0008  | 0.2831 $\pm$ 0.0103 | 0.2852 $\pm$ 0.0103 | 0.3307 |
 |      | 287         | 780     | 0.3679   | 0.0013  | 0.0010  | 0.4110 $\pm$ 0.0145 | 0.4133 $\pm$ 0.0145 | 0.4535 |
