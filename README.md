@@ -18,6 +18,8 @@ Please see the modified file transaction.js: https://github.com/Canhui/FabricDis
 
 
 
+#### 2.1. Results of the Execute Phase in the Local Cluster
+
 Table 1. The throughput and latency of an endorsing peer with c=1,2,4 CPU cores in the local cluster
 
 |      | Measure derived |         |          |         |         | Measure             |                     | Our Model |
@@ -50,7 +52,13 @@ Table 1. The throughput and latency of an endorsing peer with c=1,2,4 CPU cores 
 
 
 
+Table 1 shows the throughput and latency of an endorsing peer with $c=1,2,4$ CPU core(s) in the local cluster. It validates the model of throughput and latency in the execute phase. The maximum throughput of an endorsing peer with a single CPU core is $\mu^e=780$ transactions per second, meaning that the service time of a transaction is $T_s^e=0.0013$ seconds. We use two examples to explain the table. In example one, let the number of CPU cores $c=1$ and the transaction arrival rate $\lambda^e=209$ transactions per second, we have the queueing latency $T_q^e=0.0008$ seconds. We measure the overall latency of a transaction spent in the execute phase $T^e=0.2852$ seconds, from which the communication latency of a transaction spent in the execute phase $T_{comm}^e=0.2831$ seconds. And when $c=1$, the average effective network bandwidth is stable around $\beta^e=29.8184$ Mbps, from which the model has an overall latency $T^e=0.3307$ seconds. In example two, let the number of CPU cores $c=2$ and the transaction arrival rate $\lambda^e=426$ transactions per second, we have the queueing latency $T_q^e=0.0007$ seconds. We measure the overall latency of a transaction spent in the execute phase $T^e=0.2407$ seconds, from which the communication latency of a transaction spent in the execute phase $T_{comm}^e=0.2387$ seconds. And when $c=2$, the average effective network bandwidth is stable around $\beta^e=82.4838$ Mbps, from which the model has an overall latency $T^e=0.2441$ seconds.   
 
+
+
+
+
+#### 2.2. Results of the Execute Phase in the Cloud Cluster
 
 Table 2. The throughput and latency of an endorsing peer with $c=$1,2,4 CPU cores in the cloud cluster.
 
@@ -78,7 +86,11 @@ Table 2. The throughput and latency of an endorsing peer with $c=$1,2,4 CPU core
 |      | 566             | 470     | 0.3011   | 0.0021  | 0.0014  | 0.1051 $\pm$ 0.0030 | 0.1086 $\pm$ 0.0030 | 0.1183    |
 |      | 670             | 470     | 0.3564   | 0.0021  | 0.0014  | 0.1128 $\pm$ 0.0090 | 0.1163 $\pm$ 0.0090 | 0.1394    |
 
+Table 2 shows the throughput and latency of an endorsing peer with $c=1,2,4$ CPU core(s) in the cloud cluster. It validates the model of throughput and latency in the execute phase. The maximum throughput of an endorsing peer with a single CPU core is $\mu^e=470$ transactions per second, meaning that the service time of a transaction is $T_s^e=0.0021$ seconds. We use two examples to explain the table. In Example 1, let the number of CPU cores $c=1$ and the transaction arrival rate $\lambda^e=214$ transactions per second. We then have the queueing latency $T_q^e=0.0020$ seconds. We measure the overall latency of a transaction spent in the execute phase $T^e=0.2155$ seconds, from which the communication latency of a transaction spent in the execute phase $T_{comm}^e=0.2114$ seconds. And when $c=1$, the average effective network bandwidth is stable around $\beta^e=43.2167$ Mbps, from which the model has an overall latency $T^e=0.2362$ seconds. In Example 2, let the number of CPU cores be $c=2$ and the transaction arrival rate be $\lambda^e=244$ transactions per second; we have the queueing latency $T_q^e=0.0013$ seconds. We measure the overall latency of a transaction spent in the execute phase $T^e=0.0900$ seconds, from which the communication latency of a transaction spent in the execute phase $T_{comm}^e=0.0866$ seconds. And when $c=2$, the average effective network bandwidth is stable around $\beta^e=135.6649$ Mbps, from which the model has an overall latency $T^e=0.0877$ seconds. 
 
+
+
+#### 2.3. Results of the Order Phase with a \textit{BatchSize} of 20 in the Local Cluster
 
 Table 3. The effects of OSNs on the throughput and latency in the order phase. There are $k=$3,9,15 OSNs in a local cluster of 1 Gbit/s Ethereum network. The BatchSize is 20 and the BatchTimeout is 1.
 
@@ -95,7 +107,11 @@ Table 3. The effects of OSNs on the throughput and latency in the order phase. T
 |      | 109             | 190     | 0.5737   | 0.0053  | 0.0917       | 0.0549 $\pm$ 0.0136 | 0.2735 $\pm$ 0.0478 | 0.0011 $\pm$ 0.0011 | 0.4264 $\pm$ 0.0589 | 0.4763    |
 |      | 180             | 190     | 0.9474   | 0.0053  | 0.0556       | 0.0532 $\pm$ 0.0136 | 0.7816 $\pm$ 0.1740 | 0.0134 $\pm$ 0.0155 | 0.9091 $\pm$ 0.1467 | 0.6988    |
 
+Table 3 shows the effects of OSNs on throughput and latency during the order phase. There are $k=3, 9, 15$ OSNs in a local cluster of a 1 Gbit/s Ethernet network. The \textit{BatchSize} is 20 and the \textit{BatchTimeout} is 1. It validates the model of throughput and latency in the order phase. The maximum throughput of the ordering service with a \textit{BatchSize} of 20 is $\mu^r=190$ transactions per second. This means that the service time of a transaction is $T_s^r=0.0053$ seconds. For example, if we let the number of ordering service nodes be $k=3$ and the transaction arrival rate be $\lambda^r=70$ transactions per second, we have a queueing latency of $T_q^r=0.0009$ seconds. We measure the overall latency of a transaction spent in the order phase $T^r=0.3817$ seconds and the communication latency spent between the client and the ordering service $T_{c2l}^r=0.0403$ seconds, from which the communication latency spent between the OSN leader and followers $T_{l2f}^r=0.1924$. And when $n=3$, the effective network bandwidth is stable around $\beta_{c2l}^r=57.3301$ Mbps, $\beta_{l2f}^r=18.1730$ Mbps, from which the model has an overall latency $T^r=0.3582$ seconds.
 
+
+
+#### 2.4. Results of the Order Phase with a \textit{BatchSize} of 50 in the Local Cluster
 
 Table 4. The effects of OSNs on the throughput and latency in the order phase. There are $k=$3, 9, 15 OSNs in a local cluster of 1 Gbps Ethereum network. The BatchSize is 50 and the BatchTimeout is 1.
 
@@ -118,7 +134,11 @@ Table 4. The effects of OSNs on the throughput and latency in the order phase. T
 |      | 310             | 370     | 0.8378   | 0.0027  | 0.0806       | 0.0410 $\pm$ 0.0044 | 0.3506 $\pm$ 0.0448 | 0.0001 $\pm$ 0.0000 | 0.4750 $\pm$ 0.0480 | 0.4667    |
 |      | 342             | 370     | 0.9243   | 0.0027  | 0.0731       | 0.0373 $\pm$ 0.0037 | 0.3549 $\pm$ 0.0713 | 0.0006 $\pm$ 0.0008 | 0.4685 $\pm$ 0.0711 | 0.4993    |
 
+TABLE 4 shows the effects of OSNs on throughput and latency during the order phase. There are $k=3, 9, 15$ OSNs in a local cluster of a 1 Gbit/s Ethernet network. The \textit{BatchSize} is 50 and the \textit{BatchTimeout} is 1. It validates the model of throughput and latency in the order phase. The maximum throughput of the ordering service with a \textit{BatchSize} of 50 is $\mu^r=370$ transactions per second. This means that the service time of a transaction is $ T_s^r = 0.0027$ seconds. For example, if the number of ordering service nodes is $k=3$ and the transaction arrival rate is $\lambda^r=109$ transactions per second, we have a queueing latency of $T_q^r=0.0001$ seconds. We measure the overall latency of a transaction spent in the order phase $T^r=0.3824$ seconds and the communication latency spent between the client and the ordering service $T_{c2l}^r=0.0516$ seconds, from which the communication latency spent between the OSN leader and followers $T_{l2f}^r=0.0987$. And when $n=3$, the effective network bandwidth is stable around $\beta_{c2l}^r=120.0235$ Mbps, $\beta_{l2f}^r=56.8093$~Mbps, from which the model has an overall latency $T^r=0.3434$~seconds.
 
+
+
+#### 2.5. Results of the Order Phase with a \textit{BatchSize} of 2 in the Cloud Cluster
 
 Table 5. The effects of OSNs on the throughput and latency in the order phase. There are $k=$3,9,15 OSNs in a cloud cluster of 10 Gbps Ethereum network. The BatchSize is 2 and the BatchTimeout is 1.
 
@@ -144,7 +164,11 @@ Table 5. The effects of OSNs on the throughput and latency in the order phase. T
 |      | 566             | 850     | 0.6659   | 0.0012  | 0.0018       | 0.0243 $\pm$ 0.0030 | 0.0450 $\pm$ 0.0135 | 0.0000 $\pm$ 0.0000 | 0.0723 $\pm$ 0.0120 | 0.0838    |
 |      | 760             | 850     | 0.8941   | 0.0012  | 0.0013       | 0.0249 $\pm$ 0.0029 | 0.1291 $\pm$ 0.0939 | 0.0016 $\pm$ 0.0035 | 0.1580 $\pm$ 0.0945 | 0.1126    |
 
+TABLE 5 shows the effects of OSNs on throughput and latency during the order phase. There are $k=3, 9, 15$ OSNs in a cloud cluster of a 10 Gbit/s Ethernet network. The \textit{BatchSize} is 2 and the \textit{BatchTimeout} is 1. It validates the model of throughput and latency in the order phase. The maximum throughput of the ordering service with a \textit{BatchSize} of 2 is $\mu^r=850$ transactions per second. This means that the service time of a transaction is $ T_s^r = 0.0012$ seconds. For example, if we let the number of ordering service nodes be $k=3$ and the transaction arrival rate be $\lambda^r=244$ transactions per second, we have the queueing latency $T_q^r=0.0000$ seconds. We measure the overall latency of a transaction spent in the order phase $T^r=0.0475$ seconds and the communication latency spent between the client and the ordering service $T_{c2l}^r=0.0251$ seconds, from which the communication latency spent between the OSN leader and followers $T_{l2f}^r=0.0172$. And when $n=3$, the effective network bandwidth is stable around $\beta_{c2l}^r=456.5142$ Mbps, $\beta_{l2f}^r=452.0089$~Mbps, from which the model has an overall latency $T^r=0.0431$~seconds.
 
+
+
+#### 2.6. Results of the Order Phase with a \textit{BatchSize} of 5 in the Cloud Cluster
 
 Table 6. The effects of OSNs on the throughput and latency in the order phase. There are $k=$3,9,15 OSNs in a cloud cluster of 10 Gbps Ethereum network. The BatchSize is 5 and the BatchTimeout is 1.
 
@@ -170,7 +194,11 @@ Table 6. The effects of OSNs on the throughput and latency in the order phase. T
 |      | 566             | 1500    | 0.3773   | 0.0007  | 0.0044       | 0.0232 $\pm$ 0.0029 | 0.0224 $\pm$ 0.0046 | 0.0000 $\pm$ 0.0000 | 0.0507 $\pm$ 0.0077 | 0.0557    |
 |      | 760             | 1500    | 0.5067   | 0.0007  | 0.0033       | 0.0207 $\pm$ 0.0011 | 0.0243 $\pm$ 0.0037 | 0.0000 $\pm$ 0.0000 | 0.0490 $\pm$ 0.0096 | 0.0719    |
 
+Table 6 shows the effects of OSNs on throughput and latency during the order phase. There are $k=3, 9, 15$ OSNs in a cloud cluster of a 10 Gbit/s Ethernet network. The \textit{BatchSize} is 5 and the \textit{BatchTimeout} is 1. It validates the model of throughput and latency in the order phase. The maximum throughput of the ordering service with a \textit{BatchSize} of 5 is $\mu^r=1500$ transactions per second. This means that the service time of a transaction is $ T_s^r = 0.0007$ seconds. For example, if we let the number of ordering service nodes be $k=3$ and the transaction arrival rate be $\lambda^r=244$ transactions per second, we have the queueing latency $T_q^r=0.0000$ seconds. We measure the overall latency of a transaction spent in the order phase $T^r=0.0450$ seconds and the communication latency spent between the client and the ordering service $T_{c2l}^r=0.0237$ seconds, from which the communication latency spent between the OSN leader and followers $T_{l2f}^r=0.0104$. And when $n=3$, the effective network bandwidth is stable around $\beta_{c2l}^r=488.6910$ Mbps, $\beta_{l2f}^r=1235.1806$~Mbps, from which the model has an overall latency $T^r=0.0319$~seconds.
 
+
+
+#### 2.7. Results of the Validate Phase in the Local Cluster
 
 Table 7. The effects of an HDD of 63 IOps on the throughput and latency in the validate phase. There is a committing peer in a local cluster of 1 Gbps Ethereum network. The BatchSize is 20, 50. And the BatchTimeout is 1.
 
@@ -185,6 +213,12 @@ Table 7. The effects of an HDD of 63 IOps on the throughput and latency in the v
 
 
 
+Table~7 shows the effects of an HDD of 63 IOs per second on the throughput and latency in the validate phase. There is a committing peer in the local cluster of a 1~Gbit/s Ethernet network. The \textit{BatchSize} is 20, 50, respectively, and the \textit{BatchTimeout} is 1. It validates the model of throughput and latency of a committing peer in the validate phase. The maximum throughput of the committing peer with a \textit{BatchSize} of 20 is $\mu^v=85$ transactions per second. This means that the service time of a transaction is $T_s^v = 0.0118$ seconds. For example, let the transaction arrival rate $\lambda^v=65$ transactions per second, we have the queueing latency $T_q^v=0.0010$ seconds. We measure the overall latency of a transaction spent in the validate phase $T^v=0.6361$ seconds. And when a \textit{BatchSize} of 20, the average effective network bandwidth is stable around $\beta^v=2.4478$ Mbps, from which the model has an overall latency $T^v=0.6351$ seconds.
+
+
+
+#### 2.8. Results of the Validate Phase in the Cloud Cluster
+
 Table 8. The effects of an SSD of 1490 IOps on the throughput and latency in the validate phase. There is a committing peer in a local cluster of 10 Gbps Ethereum network. The BatchSize is 2, 5. And the BatchTimeout is 1.
 
 | BatchSize | $\lambda^v$ | $\mu^v$ | $\rho^v$ | $T_s^v$ | $T_{comm}^v$        | $T_{q}^v$           | $T^v$               | $T^v$  |
@@ -198,3 +232,4 @@ Table 8. The effects of an SSD of 1490 IOps on the throughput and latency in the
 |           | 214         | 1490    | 0.1436   | 0.0007  | 0.0531 $\pm$ 0.0157 | 0.0000 $\pm$ 0.0000 | 0.0538 $\pm$ 0.0157 | 0.0668 |
 |           | 240         | 1490    | 0.1611   | 0.0007  | 0.0828 $\pm$ 0.0099 | 0.0000 $\pm$ 0.0000 | 0.0834 $\pm$ 0.0099 | 0.0748 |
 
+Table~8 shows the effects of an SSD of 1490 IOs per second on the throughput and latency in the validate phase. There is a committing peer in the cloud cluster of a 10~Gbit/s Ethernet network. The \textit{BatchSize} is 2, 5, respectively, and the \textit{BatchTimeout} is 1. It validates the model of throughput and latency of a committing peer in the validate phase. The maximum throughput of the committing peer with a \textit{BatchSize} of 2 is $\mu^v=180$ transactions per second. This means that the service time of a transaction is $ T_s^v = 0.0056$ seconds. For example, let the transaction arrival rate $\lambda^v=65$ transactions per second, we have the queueing latency $T_q^v=0.0005$ seconds. We measure the overall latency of a transaction spent in the validate phase $T^v=0.0578$ seconds. And when a \textit{BatchSize} of 2, the average effective network bandwidth is stable around $\beta^v=33.7581$ Mbps, from which the model has an overall latency $T^v=0.0602$ seconds.
