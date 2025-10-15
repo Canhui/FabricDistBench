@@ -251,6 +251,10 @@ Table 7 shows the effects of an HDD of 63 IOs per second on the throughput and l
 
 
 
+lambda*3kB*8/1024/T_{comm}
+
+
+
 #### 2.8. Results of the Validate Phase in the Cloud Cluster
 
 Table 8. The effects of an SSD of 1490 IOps on the throughput and latency in the validate phase. There is a committing peer in a local cluster of 10 Gbps Ethereum network. The BatchSize is 2, 5. And the BatchTimeout is 1.
@@ -268,3 +272,8 @@ Table 8. The effects of an SSD of 1490 IOps on the throughput and latency in the
 | 5         | 240             | 1490    | 0.1611   | 0.0007  | 0.0827 $\pm$ 0.0099 | 0.0826 $\pm$ 0.0099  | 0.0827 $\pm$ 0.0099    | 0.0000 $\pm$ 0.0000 | 0.0001            | 0.0000              | 0.0834 $\pm$ 0.0099 | 0.0748    |
 
 Table 8 shows the effects of an SSD of 1490 IOs per second on the throughput and latency in the validate phase. There is a committing peer in the cloud cluster of a 10~Gbit/s Ethernet network. The \textit{BatchSize} is 2, 5, respectively, and the \textit{BatchTimeout} is 1. It validates the model of throughput and latency of a committing peer in the validate phase. The maximum throughput of the committing peer with a \textit{BatchSize} of 2 is $\mu^v=180$ transactions per second. This means that the service time of a transaction is $ T_s^v = 0.0056$ seconds. For example, let the transaction arrival rate $\lambda^v=65$ transactions per second, we have the queueing latency $T_q^v=0.0005$ seconds. We measure the overall latency of a transaction spent in the validate phase $T^v=0.0578$ seconds. And when a \textit{BatchSize} of 2, the average effective network bandwidth is stable around $\beta^v=33.7581$ Mbps, from which the model has an overall latency $T^v=0.0602$ seconds.
+
+
+
+lambda*3kB*8/1024/T_{comm}
+
