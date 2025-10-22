@@ -1,24 +1,28 @@
+## 1. Appendix
+Please see the appendix:
 
-## 1. Workload Generator
+<br />
 
-#### 1.1. How to generate many transactions using many clients (user level)
+## 2. Workload Generator
+
+#### 2.1. How to generate many transactions using many clients (user level)
 Please see the modified file ssh.sh: https://github.com/Canhui/FabricDistBench/blob/main/fabric-samples/exp1_cpu_cores/workload/ssh.sh
 
-#### 1.2. How to generate many transactions in a client (lower level) 
+#### 2.2. How to generate many transactions in a client (lower level) 
 Please see the modified file invoke.js: https://github.com/Canhui/FabricDistBench/blob/main/fabric-samples/exp1_cpu_cores/workload/sdk-peer0-org1/invoke.js
 
-#### 1.3. How to generate each transaction (lower level)
+#### 2.3. How to generate each transaction (lower level)
 Please see the modified file transaction.js: https://github.com/Canhui/FabricDistBench/blob/main/fabric-samples/exp1_cpu_cores/workload/node_modules/fabric-network/lib/transaction.js
 
 
 
 <br />
 
-## 2. Numerical Results
+## 3. Numerical Results
 
 
 
-#### 2.1. Results of the Execute Phase in the Local Cluster
+#### 3.1. Results of the Execute Phase in the Local Cluster
 
 Table 1. The throughput and latency of an endorsing peer with c=1,2,4 CPU cores in the local cluster
 
@@ -64,7 +68,7 @@ lambda*2*3kB*8/1024/T_{comm}
 
 
 
-#### 2.2. Results of the Execute Phase in the Cloud Cluster
+#### 3.2. Results of the Execute Phase in the Cloud Cluster
 
 Table 2. The throughput and latency of an endorsing peer with $c=$1,2,4 CPU cores in the cloud cluster.
 
@@ -100,7 +104,7 @@ lambda*2*3kB*8/1024/T_{comm}
 
 
 
-#### 2.3. Results of the Order Phase with a \textit{BatchSize} of 20 in the Local Cluster
+#### 3.3. Results of the Order Phase with a \textit{BatchSize} of 20 in the Local Cluster
 
 Table 3. The effects of OSNs on the throughput and latency in the order phase. There are $k=$3,9,15 OSNs in a local cluster of 1 Gbit/s Ethereum network. The BatchSize is 20 and the BatchTimeout is 1.
 
@@ -127,7 +131,7 @@ lambda*3*8*(k-1)/1024/T_{l2f}
 
 
 
-#### 2.4. Results of the Order Phase with a \textit{BatchSize} of 50 in the Local Cluster
+#### 3.4. Results of the Order Phase with a \textit{BatchSize} of 50 in the Local Cluster
 
 Table 4. The effects of OSNs on the throughput and latency in the order phase. There are $k=$3, 9, 15 OSNs in a local cluster of 1 Gbps Ethereum network. The BatchSize is 50 and the BatchTimeout is 1.
 
@@ -160,7 +164,7 @@ lambda*3*8*(k-1)/1024/T_{l2f}
 
 
 
-#### 2.5. Results of the Order Phase with a \textit{BatchSize} of 2 in the Cloud Cluster
+#### 3.5. Results of the Order Phase with a \textit{BatchSize} of 2 in the Cloud Cluster
 
 Table 5. The effects of OSNs on the throughput and latency in the order phase. There are $k=$3,9,15 OSNs in a cloud cluster of 10 Gbps Ethereum network. The BatchSize is 2 and the BatchTimeout is 1.
 
@@ -196,7 +200,7 @@ lambda*3*8*(k-1)/1024/T_{l2f}
 
 
 
-#### 2.6. Results of the Order Phase with a \textit{BatchSize} of 5 in the Cloud Cluster
+#### 3.6. Results of the Order Phase with a \textit{BatchSize} of 5 in the Cloud Cluster
 
 Table 6. The effects of OSNs on the throughput and latency in the order phase. There are $k=$3,9,15 OSNs in a cloud cluster of 10 Gbps Ethereum network. The BatchSize is 5 and the BatchTimeout is 1.
 
@@ -232,7 +236,7 @@ lambda*3*8*(k-1)/1024/T_{l2f}
 
 
 
-#### 2.7. Results of the Validate Phase in the Local Cluster
+#### 3.7. Results of the Validate Phase in the Local Cluster
 
 Table 7. The effects of an HDD of 63 IOps on the throughput and latency in the validate phase. There is a committing peer in a local cluster of 1 Gbps Ethereum network. The BatchSize is 20, 50. And the BatchTimeout is 1.
 
@@ -255,7 +259,7 @@ lambda*3kB*8/1024/T_{comm}
 
 
 
-#### 2.8. Results of the Validate Phase in the Cloud Cluster
+#### 3.8. Results of the Validate Phase in the Cloud Cluster
 
 Table 8. The effects of an SSD of 1490 IOps on the throughput and latency in the validate phase. There is a committing peer in a local cluster of 10 Gbps Ethereum network. The BatchSize is 2, 5. And the BatchTimeout is 1.
 
