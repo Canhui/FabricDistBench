@@ -1,5 +1,5 @@
 ## 1. Appendix
-Please see the appendix:
+Please see the appendix: https://github.com/Canhui/FabricDistBench/blob/main/appendix/appendix.pdf
 
 <br />
 
