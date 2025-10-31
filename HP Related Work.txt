@@ -1,39 +1,76 @@
-1. Latency performance modelling in hyperledger fabric blockchain: Challenges and directions with an IoT perspective
 
-2. Exploring Hyperledger Caliper Benchmarking Tool to Measure the Performance of Blockchain Based Solutions
 
-3. Enhancing Throughput in Hyperledger Fabric Through Endorsement Policy Strategy
+2. Exploring Hyperledger Caliper Benchmarking Tool to Measure the Performance of Blockchain Based Solutions：https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10522188
 
-4. Quantum-Safe Blockchain in Hyperledger Fabric
+3. Enhancing Throughput in Hyperledger Fabric Through Endorsement Policy Strategy：https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10673946
 
-5. Performance Optimization of High-Conflict Transactions within the Hyperledger Fabric Blockchain
+5. Performance Optimization of High-Conflict Transactions within the Hyperledger Fabric Blockchain：https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10732190
 
-6. Performance Modeling and Evaluation of Hyperledger Fabric: An Analysis Based on Transaction Flow and Endorsement Policies
+6. Performance Modeling and Evaluation of Hyperledger Fabric: An Analysis Based on Transaction Flow and Endorsement Policies：https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10733701
 
-7. Analytical Performance model for Hyperledger Fabric for Communication Technology use cases
+7. Analytical Performance model for Hyperledger Fabric for Communication Technology use cases：https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10843635&tag=1
 
-8. A Blockchain-Integrated IoT System Leveraging Hyperledger Fabric
 
-9. A Performance Analysis of Hyperledger Fabric for Blockchain-Based Concert Ticketing Systems
 
+
+
+
+
+
+10. Hyperledger Fabric Platform for Secure and Efficient Data Sharing in Autonomous Vehicles： https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10657518 （see the results）
+
+11. Mission Reliability and Optimization in Multi-agent Systems Using Hyperledger Fabric Platform: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10955996
+
+12. Dynamic Optimization for Trade-off in Hyperledger Fabric towards Latency-Sensitive IoT Services: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10707554
+
+13. Electronic Healthcare Data Sharing Application Based on Hyperledger Consortium Blockchain Network: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11102758
+
+14. Hyperledger Iroha for a Secure and Efficient Voting System: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10467774
+
+15. Operating ZKPs on Blockchain: A Performance Analysis Based on Hyperledger Fabric: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10646455
+
+16. Decentralized Access Control using Hyperledger Fabric: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11126662
+
+17. A Scheduling Algorithm for Hyperledger Fabric Based on Transaction Batch Processing: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10705406
 
 
 Journal:
 
-10. Resilient and Fast Block Transmission System for Scalable Hyperledger Fabric Blockchain in Multi-Cloud Environments
+10. Resilient and Fast Block Transmission System for Scalable Hyperledger Fabric Blockchain in Multi-Cloud Environments: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10616168
 
-11. FabMAN: A Framework for Ledger Storage and Size Management for Hyperledger Fabric-Based IoT Applications
+11. FabMAN: A Framework for Ledger Storage and Size Management for Hyperledger Fabric-Based IoT Applications: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10457524
+
+4. Quantum-Safe Blockchain in Hyperledger Fabric：https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10816500
+
+1. Latency performance modelling in hyperledger fabric blockchain: Challenges and directions with an IoT perspective: 
+
+zkFabLedger: Enabling Privacy Preserving and Regulatory Compliance in Hyperledger Fabric
+
+Blockchain-based Decentralized Edge Intelligence Collaboration and Adaptive Incentive Mechanism Research
+
+Performance Modeling of Relay Chain
+
+Let the Blocks Fly (Flying Blocks): A Highly Efficient and Practical Consensus Protocol for Authoritative Blockchains
+
+Hyper-IIoT: A Smart Contract-Inspired Access Control Scheme for Resource-Constrained Industrial Internet of Things
+
+BCC-SRN: Blockchain-Based Cooperative Communication Scheme for Symbiotic Radio Network (TNSE)
+
+EMT: Extended Merkle Tree Structure for Inserted Data Redaction in Permissioned Blockchain (TNSE)
+
+Secure and Efficient Federated Learning Through Layering and Sharding Blockchain (TNSE)
+
+A Blockchain-Based Hybrid Model for IoMT-Enabled Intelligent Healthcare System (TNSE)
+
+BlockEmulator: An Emulator Enabling to Test Blockchain Sharding Protocols
+
+Blockchain Assisted Industrial Data Registration and Reconstruction Management Scheme (TNSE)
+
+Blockchain-Based Dynamic Cloud Data Integrity Auditing via Non-Leaf Node Sampling of Rank-Based Merkle Hash Tree (TNSE)
 
 
 
 
-
-
-
-
-
-
-IEEE Transactions on Network and Service Management
 
 
 查找更多相关工作TNSE：
