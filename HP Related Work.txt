@@ -80,3 +80,14 @@ Hyperledger Fabric Performance Model 2024, 2025
 
 
 
+From these figures, it can be observed that the TPS
+represents another factor that impacts the Failure Rate. For
+example, Figure 9 shows that the failure is higher with
+100 users than 200 users if the TPS configuration is 200
+during the test, indicating that the system is under greater pressure and more challenges at higher transaction rates.
+Therefore, the findings imply that the quantity of virtual
+users affects the system’s performance. The study also
+revealed that while some system modules had higher send
+rates and throughput and lower failure rates, others had
+higher delays.
+
