@@ -1,6 +1,7 @@
 
-
 2. Exploring Hyperledger Caliper Benchmarking Tool to Measure the Performance of Blockchain Based Solutions：https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10522188
+
+
 
 3. Enhancing Throughput in Hyperledger Fabric Through Endorsement Policy Strategy：https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10673946
 
@@ -42,31 +43,31 @@ Journal:
 
 4. Quantum-Safe Blockchain in Hyperledger Fabric：https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10816500
 
-1. Latency performance modelling in hyperledger fabric blockchain: Challenges and directions with an IoT perspective: 
+1. Latency performance modelling in hyperledger fabric blockchain: Challenges and directions with an IoT perspective: https://www.sciencedirect.com/science/article/pii/S2542660524001586
 
-zkFabLedger: Enabling Privacy Preserving and Regulatory Compliance in Hyperledger Fabric
+zkFabLedger: Enabling Privacy Preserving and Regulatory Compliance in Hyperledger Fabric：https://ieeexplore.ieee.org/document/10839283
 
-Blockchain-based Decentralized Edge Intelligence Collaboration and Adaptive Incentive Mechanism Research
+Blockchain-based Decentralized Edge Intelligence Collaboration and Adaptive Incentive Mechanism Research：https://ieeexplore.ieee.org/document/11164253
 
-Performance Modeling of Relay Chain
+Performance Modeling of Relay Chain：https://ieeexplore.ieee.org/document/10772657
 
-Let the Blocks Fly (Flying Blocks): A Highly Efficient and Practical Consensus Protocol for Authoritative Blockchains
+Let the Blocks Fly (Flying Blocks): A Highly Efficient and Practical Consensus Protocol for Authoritative Blockchains：https://ieeexplore.ieee.org/document/11202733/
 
-Hyper-IIoT: A Smart Contract-Inspired Access Control Scheme for Resource-Constrained Industrial Internet of Things
+Hyper-IIoT: A Smart Contract-Inspired Access Control Scheme for Resource-Constrained Industrial Internet of Things：https://ieeexplore.ieee.org/document/10891178
 
-BCC-SRN: Blockchain-Based Cooperative Communication Scheme for Symbiotic Radio Network (TNSE)
+BCC-SRN: Blockchain-Based Cooperative Communication Scheme for Symbiotic Radio Network (TNSE)：https://ieeexplore.ieee.org/document/11181211
 
-EMT: Extended Merkle Tree Structure for Inserted Data Redaction in Permissioned Blockchain (TNSE)
+EMT: Extended Merkle Tree Structure for Inserted Data Redaction in Permissioned Blockchain (TNSE)：https://ieeexplore.ieee.org/document/10945641
 
-Secure and Efficient Federated Learning Through Layering and Sharding Blockchain (TNSE)
+Secure and Efficient Federated Learning Through Layering and Sharding Blockchain (TNSE)：https://ieeexplore.ieee.org/document/10419032/
 
-A Blockchain-Based Hybrid Model for IoMT-Enabled Intelligent Healthcare System (TNSE)
+A Blockchain-Based Hybrid Model for IoMT-Enabled Intelligent Healthcare System (TNSE)：https://ieeexplore.ieee.org/document/10472119
 
-BlockEmulator: An Emulator Enabling to Test Blockchain Sharding Protocols
+BlockEmulator: An Emulator Enabling to Test Blockchain Sharding Protocols：https://ieeexplore.ieee.org/document/10908689
 
-Blockchain Assisted Industrial Data Registration and Reconstruction Management Scheme (TNSE)
+Blockchain Assisted Industrial Data Registration and Reconstruction Management Scheme (TNSE)：https://ieeexplore.ieee.org/document/10909358/
 
-Blockchain-Based Dynamic Cloud Data Integrity Auditing via Non-Leaf Node Sampling of Rank-Based Merkle Hash Tree (TNSE)
+Blockchain-Based Dynamic Cloud Data Integrity Auditing via Non-Leaf Node Sampling of Rank-Based Merkle Hash Tree (TNSE)：https://ieeexplore.ieee.org/document/10509016/
 
 
 
