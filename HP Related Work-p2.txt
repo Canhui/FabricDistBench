@@ -7,7 +7,7 @@
 }
 
 [2] 
-@ARTICLE{9907879,
+@ARTICLE{Wang2023Dissecting,
   author={Wang, Canhui and Chu, Xiaowen and Qin, Yang},
   journal={IEEE Transactions on Network Science and Engineering}, 
   title={Dissecting Mining Pools of Bitcoin Network: Measurement, Analysis and Modeling}, 
@@ -19,7 +19,7 @@
   doi={10.1109/TNSE.2022.3210537}}
 
 [3]
-@ARTICLE{8664577,
+@ARTICLE{8664577Gai2019,
   author={Gai, Keke and Wu, Yulu and Zhu, Liehuang and Xu, Lei and Zhang, Yan},
   journal={IEEE Internet of Things Journal}, 
   title={Permissioned Blockchain and Edge Computing Empowered Privacy-Preserving Smart Grid Networks}, 
@@ -31,19 +31,20 @@
   doi={10.1109/JIOT.2019.2904303}}
 
 [4]
-@ARTICLE{8664577,
-  author={Gai, Keke and Wu, Yulu and Zhu, Liehuang and Xu, Lei and Zhang, Yan},
-  journal={IEEE Internet of Things Journal}, 
-  title={Permissioned Blockchain and Edge Computing Empowered Privacy-Preserving Smart Grid Networks}, 
-  year={2019},
-  volume={6},
-  number={5},
-  pages={7992-8004},
-  keywords={Blockchain;Edge computing;Smart grids;Access control;Internet of Things;Privacy;Edge computing;permissioned blockchain;privacy-preserving;smart grid network (SGN)},
-  doi={10.1109/JIOT.2019.2904303}}
+@ARTICLE{9422738Putra2021,
+  author={Putra, Guntur Dharma and Dedeoglu, Volkan and Kanhere, Salil S. and Jurdak, Raja and Ignjatovic, Aleksandar},
+  journal={IEEE Transactions on Network and Service Management}, 
+  title={Trust-Based Blockchain Authorization for IoT}, 
+  year={2021},
+  volume={18},
+  number={2},
+  pages={1646-1658},
+  keywords={Blockchain;Authorization;Smart contracts;Proposals;Privacy;Trust management;Biological system modeling;Trust management;privacy;authorization;blockchain;IoT;reputation},
+  doi={10.1109/TNSM.2021.3077276}}
+
 
 [5]
-@article{HELLIAR2020102136,
+@article{HELLIAR2020102136Christine2020,
 title = {Permissionless and permissioned blockchain diffusion},
 journal = {International Journal of Information Management},
 volume = {54},
@@ -58,7 +59,7 @@ abstract = {This paper explores the barriers and drivers of diffusion associated
 }
 
 [6]
-@article{10.1145/3442371,
+@article{10.1145/3442371Bakos2021,
 author = {Bakos, Yannis and Halaburda, Hanna and Mueller-Bloch, Christoph},
 title = {When permissioned blockchains deliver more decentralization than permissionless},
 year = {2021},
@@ -78,7 +79,7 @@ numpages = {3}
 }
 
 [7]
-@article{PENG2021295,
+@article{PENG2021295Li2021,
 title = {Privacy preservation in permissionless blockchain: A survey},
 journal = {Digital Communications and Networks},
 volume = {7},
@@ -94,7 +95,7 @@ abstract = {Permissionless blockchain, as a kind of distributed ledger, has gain
 }
 
 [8]
-@article{10.1145/3376915,
+@article{10.1145/3376915Aguiar2020,
 author = {De Aguiar, Erikson J\'{u}lio and Fai\c{c}al, Bruno S. and Krishnamachari, Bhaskar and Ueyama, J\'{o}},
 title = {A Survey of Blockchain-Based Strategies for Healthcare},
 year = {2020},
@@ -115,7 +116,7 @@ keywords = {survey, medical, healthcare, distributed ledger technology, blockcha
 }
 
 [9]
-@article{10.1145/3372136,
+@article{10.1145/3372136Laphou2020,
 author = {Lao, Laphou and Li, Zecheng and Hou, Songlin and Xiao, Bin and Guo, Songtao and Yang, Yuanyuan},
 title = {A Survey of IoT Applications in Blockchain Systems: Architecture, Consensus, and Traffic Modeling},
 year = {2020},
@@ -136,7 +137,7 @@ keywords = {Blockchain, IoT, architecture, consensus, traffic modeling}
 }
 
 [10]
-@ARTICLE{9918076,
+@ARTICLE{9918076Lakhan2023,
   author={Lakhan, Abdullah and Mohammed, Mazin Abed and Nedoma, Jan and Martinek, Radek and Tiwari, Prayag and Kumar, Neeraj},
   journal={IEEE Transactions on Network Science and Engineering}, 
   title={Blockchain-Enabled Cybersecurity Efficient IIOHT Cyber-Physical System for Medical Applications}, 
@@ -148,7 +149,7 @@ keywords = {Blockchain, IoT, architecture, consensus, traffic modeling}
   doi={10.1109/TNSE.2022.3213651}}
 
 [11]
-@ARTICLE{10124390,
+@ARTICLE{10124390Guangyu2023,
   author={Peng, Guangyu and Zhang, Aiqing and Lin, Xiaodong},
   journal={IEEE Transactions on Network Science and Engineering}, 
   title={Patient-Centric Fine-Grained Access Control for Electronic Medical Record Sharing With Security via Dual-Blockchain}, 
@@ -160,7 +161,7 @@ keywords = {Blockchain, IoT, architecture, consensus, traffic modeling}
   doi={10.1109/TNSE.2023.3276166}}
 
 [12]
-@inproceedings{10.1145/3190508.3190538,
+@inproceedings{10.1145/3190508.3190538Androulaki2018,
 author = {Androulaki, Elli and Barger, Artem and Bortnikov, Vita and Cachin, Christian and Christidis, Konstantinos and De Caro, Angelo and Enyeart, David and Ferris, Christopher and Laventman, Gennady and Manevich, Yacov and Muralidharan, Srinivasan and Murthy, Chet and Nguyen, Binh and Sethi, Manish and Singh, Gari and Smith, Keith and Sorniotti, Alessandro and Stathakopoulou, Chrysoula and Vukoli\'{c}, Marko and Cocco, Sharon Weed and Yellick, Jason},
 title = {Hyperledger fabric: a distributed operating system for permissioned blockchains},
 year = {2018},
@@ -178,7 +179,7 @@ series = {EuroSys '18}
 }
 
 [13]
-@inproceedings{10.1145/3477314.3507006,
+@inproceedings{10.1145/3477314.3507006Klenik2022,
 author = {Klenik, Attila and Kocsis, Imre},
 title = {Porting a benchmark with a classic workload to blockchain: TPC-C on hyperledger fabric},
 year = {2022},
@@ -197,7 +198,7 @@ series = {SAC '22}
 }
 
 [14]
-@article{10.1145/3423554,
+@article{10.1145/3423554Jeong2021,
 author = {Jeong, Junho and Kim, Donghyo and Ihm, Sun-Young and Lee, Yangsun and Son, Yunsik},
 title = {Multilateral Personal Portfolio Authentication System Based on Hyperledger Fabric},
 year = {2021},
@@ -218,7 +219,7 @@ keywords = {Blockchain, authentication, e-business model, hyperledger fabric, pe
 }
 
 [15]
-@article{LOHACHAB2021392,
+@article{LOHACHAB2021392Ankur2021,
 title = {Performance evaluation of Hyperledger Fabric-enabled framework for pervasive peer-to-peer energy trading in smart Cyber–Physical Systems},
 journal = {Future Generation Computer Systems},
 volume = {118},
@@ -233,7 +234,7 @@ abstract = {The in-depth collaboration of Cyber–Physical Systems (CPSs) and sm
 }
 
 [16]
-@article{10.1145/3485188,
+@article{10.1145/3485188Fan2021,
 author = {Fan, Caixiang and Ghaemi, Sara and Khazaei, Hamzeh and Chen, Yuxiang and Musilek, Petr},
 title = {Performance Analysis of the IOTA DAG-Based Distributed Ledger},
 year = {2021},
@@ -271,7 +272,7 @@ abstract = {Presently, blockchain technology has been widely applied in various 
 }
 
 [18]
-@INPROCEEDINGS{9355625,
+@INPROCEEDINGS{9355625Wang2020,
   author={Wang, Canhui and Chu, Xiaowen},
   booktitle={2020 IEEE 40th International Conference on Distributed Computing Systems (ICDCS)}, 
   title={Performance Characterization and Bottleneck Analysis of Hyperledger Fabric}, 
@@ -283,7 +284,7 @@ abstract = {Presently, blockchain technology has been widely applied in various 
   doi={10.1109/ICDCS47774.2020.00165}}
 
 [19]
-@INPROCEEDINGS{9461099,
+@INPROCEEDINGS{9461099Barger2021,
   author={Barger, Artem and Manevich, Yacov and Meir, Hagar and Tock, Yoav},
   booktitle={2021 IEEE International Conference on Blockchain and Cryptocurrency (ICBC)}, 
   title={A Byzantine Fault-Tolerant Consensus Library for Hyperledger Fabric}, 
@@ -326,7 +327,7 @@ abstract = {As a highly scalable permissioned blockchain platform, Hyperledger F
 }
 
 [22]
-@ARTICLE{9316952,
+@ARTICLE{9316952Meng2021,
   author={Meng, Tianhui and Zhao, Yubin and Wolter, Katinka and Xu, Cheng-Zhong},
   journal={IEEE Transactions on Parallel and Distributed Systems}, 
   title={On Consortium Blockchain Consistency: A Queueing Network Model Approach}, 
@@ -338,7 +339,7 @@ abstract = {As a highly scalable permissioned blockchain platform, Hyperledger F
   doi={10.1109/TPDS.2021.3049915}}
 
 [23]
-@inproceedings{10.1145/3422337.3447837,
+@inproceedings{10.1145/3422337.3447837Desai2021,
 author = {Desai, Harsh Bimal and Ozdayi, Mustafa Safa and Kantarcioglu, Murat},
 title = {BlockFLA: Accountable Federated Learning via Hybrid Blockchain Architecture},
 year = {2021},
@@ -357,7 +358,7 @@ series = {CODASPY '21}
 }
 
 [24]
-@article{10.1145/3511899,
+@article{10.1145/3511899Gai2023,
 author = {Gai, Keke and She, Yufeng and Zhu, Liehuang and Choo, Kim-Kwang Raymond and Wan, Zhiguo},
 title = {A Blockchain-Based Access Control Scheme for Zero Trust Cross-Organizational Data Sharing},
 year = {2023},
@@ -378,7 +379,7 @@ keywords = {Consortium blockchain, zero trust, multi-signature, access control, 
 }
 
 [25]
-@article{10.1145/3558779,
+@article{10.1145/3558779Fotia2023,
 author = {Fotia, Lidia and Delicato, Fl\'{a}via and Fortino, Giancarlo},
 title = {Trust in Edge-based Internet of Things Architectures: State of the Art and Research Challenges},
 year = {2023},
@@ -399,7 +400,7 @@ keywords = {Internet of things, edge computing, trust, reputation, blockchain}
 }
 
 [26]
-@article{10.1145/3488247,
+@article{10.1145/3488247Neha2022,
 author = {Neha, Benazir and Panda, Sanjaya Kumar and Sahu, Pradip Kumar and Sahoo, Kshira Sagar and Gandomi, Amir H.},
 title = {A Systematic Review on Osmotic Computing},
 year = {2022},
@@ -419,7 +420,7 @@ keywords = {Osmotic computing, fog computing, edge computing}
 }
 
 [27]
-@INPROCEEDINGS{9355725,
+@INPROCEEDINGS{9355725Berendea2020,
   author={Berendea, Nicolae and Mercier, Hugues and Onica, Emanuel and Rivière, Etienne},
   booktitle={2020 IEEE 40th International Conference on Distributed Computing Systems (ICDCS)}, 
   title={Fair and Efficient Gossip in Hyperledger Fabric}, 
@@ -431,7 +432,7 @@ keywords = {Osmotic computing, fog computing, edge computing}
   doi={10.1109/ICDCS47774.2020.00027}}
 
 [28]
-@article{https://doi.org/10.1002/nem.2099,
+@article{https://doi.org/10.1002/nem.2099Gorenflo2020,
 author = {Gorenflo, Christian and Lee, Stephen and Golab, Lukasz and Keshav, Srinivasan},
 title = {FastFabric: Scaling hyperledger fabric to 20 000 transactions per second},
 journal = {International Journal of Network Management},
@@ -447,7 +448,7 @@ year = {2020}
 }
 
 [29]
-@inproceedings{10.1145/3299869.3319883,
+@inproceedings{10.1145/3299869.3319883Sharma2019,
 author = {Sharma, Ankur and Schuhknecht, Felix Martin and Agrawal, Divya and Dittrich, Jens},
 title = {Blurring the Lines between Blockchains and Database Systems: the Case of Hyperledger Fabric},
 year = {2019},
@@ -466,7 +467,7 @@ series = {SIGMOD '19}
 }
 
 [30]
-@article{https://doi.org/10.1155/2018/3976093,
+@article{https://doi.org/10.1155/2018/3976093Nasir2018,
 author = {Nasir, Qassim and Qasse, Ilham A. and Abu Talib, Manar and Nassif, Ali Bou},
 title = {Performance Analysis of Hyperledger Fabric Platforms},
 journal = {Security and Communication Networks},
@@ -481,7 +482,7 @@ year = {2018}
 }
 
 [31]
-@INPROCEEDINGS{9169454,
+@INPROCEEDINGS{9169454Nakaike2020,
   author={Nakaike, Takuya and Zhang, Qi and Ueda, Yohei and Inagaki, Tatsushi and Ohara, Moriyoshi},
   booktitle={2020 IEEE International Conference on Blockchain and Cryptocurrency (ICBC)}, 
   title={Hyperledger Fabric Performance Characterization and Optimization Using GoLevelDB Benchmark}, 
@@ -493,7 +494,7 @@ year = {2018}
   doi={10.1109/ICBC48266.2020.9169454}}
 
 [32]
-@INPROCEEDINGS{8845168,
+@INPROCEEDINGS{8845168Nguyen2019,
   author={Nguyen, Thanh Son Lam and Jourjon, Guillaume and Potop-Butucaru, Maria and Thai, Kim Loan},
   booktitle={IEEE INFOCOM 2019 - IEEE Conference on Computer Communications Workshops (INFOCOM WKSHPS)}, 
   title={Impact of network delays on Hyperledger Fabric}, 
@@ -505,7 +506,7 @@ year = {2018}
   doi={10.1109/INFCOMW.2019.8845168}}
 
 [33]
-@INPROCEEDINGS{8946222,
+@INPROCEEDINGS{8946222Kuzlu2019,
   author={Kuzlu, Murat and Pipattanasomporn, Manisa and Gurses, Levent and Rahman, Saifur},
   booktitle={2019 IEEE International Conference on Blockchain (Blockchain)}, 
   title={Performance Analysis of a Hyperledger Fabric Blockchain Framework: Throughput, Latency and Scalability}, 
@@ -517,7 +518,7 @@ year = {2018}
   doi={10.1109/Blockchain.2019.00003}}
 
 [34]
-@INPROCEEDINGS{8526892,
+@INPROCEEDINGS{8526892Thakkar2018,
   author={Thakkar, Parth and Nathan, Senthil and Viswanathan, Balaji},
   booktitle={2018 IEEE 26th International Symposium on Modeling, Analysis, and Simulation of Computer and Telecommunication Systems (MASCOTS)}, 
   title={Performance Benchmarking and Optimizing Hyperledger Fabric Blockchain Platform}, 
@@ -529,7 +530,7 @@ year = {2018}
   doi={10.1109/MASCOTS.2018.00034}}
 
 [35]
-@inproceedings{10.1145/3472883.3486975,
+@inproceedings{10.1145/3472883.3486975Thakkar2021,
 author = {Thakkar, Parth and Natarajan, Senthilnathan},
 title = {Scaling Blockchains Using Pipelined Execution and Sparse Peers},
 year = {2021},
@@ -547,7 +548,7 @@ series = {SoCC '21}
 }
 
 [36]
-@INPROCEEDINGS{8548070,
+@INPROCEEDINGS{8548070Sukhwani2018,
   author={Sukhwani, Harish and Wang, Nan and Trivedi, Kishor S. and Rindos, Andy},
   booktitle={2018 IEEE 17th International Symposium on Network Computing and Applications (NCA)}, 
   title={Performance Modeling of Hyperledger Fabric (Permissioned Blockchain Network)}, 
@@ -559,7 +560,7 @@ series = {SoCC '21}
   doi={10.1109/NCA.2018.8548070}}
 
 [37]
-@INPROCEEDINGS{9789772,
+@INPROCEEDINGS{9789772Mauro2022,
   author={Di Mauro, Mario and Galatro, Giovanni and Longo, Maurizio and Postiglione, Fabio and Tambasco, Marco},
   booktitle={NOMS 2022-2022 IEEE/IFIP Network Operations and Management Symposium}, 
   title={Performability Analysis of Containerized IMS through Queueing Networks and Stochastic Models}, 
@@ -573,7 +574,7 @@ series = {SoCC '21}
 [38]
 
 [39]
-@ARTICLE{9799763,
+@ARTICLE{9799763Simone2023,
   author={De Simone, Luigi and Mauro, Mario Di and Natella, Roberto and Postiglione, Fabio},
   journal={IEEE Transactions on Services Computing}, 
   title={A Latency-Driven Availability Assessment for Multi-Tenant Service Chains}, 
@@ -585,7 +586,7 @@ series = {SoCC '21}
   doi={10.1109/TSC.2022.3183938}}
 
 [40]
-@ARTICLE{8409300,
+@ARTICLE{8409300Zhong2019,
   author={Zhong, Xiang and Prakash, Aditya Mahadev and Petty, Leanne and James, Rita A.},
   journal={IEEE Transactions on Automation Science and Engineering}, 
   title={Bottleneck Analysis to Reduce Primary Care to Specialty Care Referral Delay}, 
