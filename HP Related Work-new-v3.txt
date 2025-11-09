@@ -88,7 +88,7 @@ This paper investigates the mission reliability and agent number optimization in
   doi={10.1109/SOLI63266.2024.10955996}}
 
 
-12. Dynamic Optimization for Trade-off in Hyperledger Fabric towards Latency-Sensitive IoT Services: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10707554
+（M/M/1） 12. Dynamic Optimization for Trade-off in Hyperledger Fabric towards Latency-Sensitive IoT Services: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10707554
 Ding et al. []
 Hyperledger Fabric is currently the most widely used open-source enterprise blockchain platform in IoT services. However, Hyperledger Fabric still suffers from high latency in practical applications, hindering its further adoption in latency-sensitive IoT services. To address this issue, this paper selects Hyperledger Fabric v2.0 as the research target. The focus is on the latency of the ordering phase, which accounts for the highest proportion of latency in the EOV architecture. The ordering phase is primarily responsible for block packaging and generation, requiring careful parameter configuration to ensure the efficient operation of the blockchain system. We discuss the impact of BatchSize and BatchTimeout on block generation under two different consensus algorithms, Kafka and Raft. Additionally, based on the M/M/1 queue, we propose a latency analysis model for the ordering phase and analyze the causes of latency. Subsequently, we frame the optimization of blockchain experimentation as a Markov decision process, introducing a dynamic parameter configuration method grounded in deep reinforcement learning. This approach aims to strike a balance between BatchSize and BatchTimeout in response to network loads. The experimental results indicate that compared to existing methods, the proposed dynamic optimization strategy can reduce the average transaction latency of the blockchain system by 11.37%. Additionally, this strategy demonstrates good fault tolerance capability, with a reduction in the latency of node failures by approximately 6.35%. Therefore, the proposed dynamic optimization strategy meets the QoS requirements for IoT services.
 @INPROCEEDINGS{10707554Ding2024,
@@ -242,19 +242,7 @@ keywords = {Blockchain, Hyperledger Fabric, Internet of Things, Latency},
 abstract = {Blockchain is a decentralized and distributed ledger technology that enables secure and transparent recording of transactions across multiple participants. Hyperledger Fabric (HLF), a permissioned blockchain, enhances performance through its modular design and pluggable consensus. However, integrating HLF with enterprise applications introduces latency challenges. Researchers have proposed numerous latency performance modelling techniques to address this issue. These studies contribute to a deeper understanding of HLF’s latency by employing various modelling approaches and exploring techniques to improve network latency. However, existing HLF latency modelling studies lack an analysis of how these research efforts apply to specific use cases. This paper examines existing research on latency performance modelling in HLF and the challenges of applying these models to HLF-enabled Internet of Things (IoT) use cases. We propose a novel set of criteria for evaluating HLF latency performance modelling and highlight key HLF parameters that influence latency, aligning them with our evaluation criteria. We then classify existing papers based on their focus on latency modelling and the criteria they address. Additionally, we provide a comprehensive overview of latency performance modelling from various researchers, emphasizing the challenges in adapting these models to HLF-enabled IoT blockchain within the framework of our evaluation criteria. Finally, we suggest directions for future research and highlight open research questions for further exploration.}
 }
 
-zkFabLedger: Enabling Privacy Preserving and Regulatory Compliance in Hyperledger Fabric：https://ieeexplore.ieee.org/document/10839283
-Yang et al. []
-Preserving the privacy of transactions and ensuring the regulatory compliance of transactions are two important requirements for blockchain-based financial applications. However, these two requirements are somewhat contradictory. Techniques for protecting transaction privacy, such as data encryption and zero-knowledge proof, generally make it difficult to regulate and audit the transactions. In this paper, we propose a system named zkFabLedger which enhances both the privacy and the auditability of the classic permissioned blockchain platform Hyperledger Fabric. The proposed system utilizes commitments and non-interactive zero-knowledge proofs to hide the detailed information of transactions while enabling the endorsing peer nodes to verify the regulatory compliance of transactions. Transactions are recorded on table-structured ledgers, so that the regulator can perform complex auditing of transactions. Moreover, we utilize the ring signature scheme and the secret handshake protocol to ensure the anonymity of the transaction sender while enabling the regulator to trace the sender’s identity. Simulation results demonstrate that the proposed system can balance well between privacy, regulation and efficiency.
-@ARTICLE{10839283Yang2025,
-  author={Yang, Xingyu and Hou, Jipeng and Xu, Lei and Zhu, Liehuang},
-  journal={IEEE Transactions on Network and Service Management}, 
-  title={zkFabLedger: Enabling Privacy Preserving and Regulatory Compliance in Hyperledger Fabric}, 
-  year={2025},
-  volume={22},
-  number={2},
-  pages={2243-2263},
-  keywords={Blockchains;Privacy;Regulation;Regulators;Fabrics;Peer-to-peer computing;Protocols;Distributed ledger;Cryptocurrency;Receivers;Blockchain;privacy preserving;auditable ledger;regulatory compliance;non-interactive zero-knowledge proofs},
-  doi={10.1109/TNSM.2024.3525045}}
+
 
 
 Blockchain-based Decentralized Edge Intelligence Collaboration and Adaptive Incentive Mechanism Research：https://ieeexplore.ieee.org/document/11164253
@@ -377,6 +365,8 @@ In recent years, the healthcare industry has undergone a digital transformation,
   doi={10.1109/TNSE.2024.3376069}}
 
 
+
+
 BlockEmulator: An Emulator Enabling to Test Blockchain Sharding Protocols：https://ieeexplore.ieee.org/document/10908689
 Huang et al. []
 Numerous blockchain simulators have been proposed to allow researchers to simulate mainstream blockchains. However, we have not yet found a testbed that enables researchers to develop and evaluate their new consensus algorithms or new protocols for blockchain sharding systems. To fill this gap, we developed BlockEmulator, which is designed as an experimental platform, particularly for emulating blockchain sharding mechanisms. BlockEmulator adopts a lightweight blockchain architecture so developers can only focus on implementing their new protocols or mechanisms. Using layered modules and useful programming interfaces offered by BlockEmulator, researchers can implement a new protocol with minimum effort. Through experiments, we test various functionalities of BlockEmulator in two steps. First, we prove the correctness of the emulation results yielded by BlockEmulator by comparing the theoretical analysis with the observed experiment results. Second, other experimental results demonstrate that BlockEmulator can facilitate measuring a series of metrics, including throughput, transaction confirmation latency, cross-shard transaction ratio, the queuing status of transaction pools, workload distribution across blockchain shards, etc. We have made BlockEmulator open-source in Github.
@@ -392,19 +382,7 @@ Numerous blockchain simulators have been proposed to allow researchers to simula
   doi={10.1109/TSC.2025.3547222}}
 
 
-Blockchain Assisted Industrial Data Registration and Reconstruction Management Scheme (TNSE)：https://ieeexplore.ieee.org/document/10909358/
-Liu et al. []
-As a typical Industrial Internet of Things (IIOT) application, three-dimensional point cloud reconstruction brings us benefits and convenience. The reconstructed mathematical models can be employed to facilitate precise quality control, which is important for the usage of the reconstructed products. Conversely, traditional reconstruction methods are characterized by inefficiency, and the errors inherent in each phase of the reconstruction chain often remain opaque and vulnerable to tampering. Hence, we propose a blockchain assisted industrial data registration and reconstruction management scheme (BIRMS). First, the tamper-proof and distributed storage characteristics of blockchain are fully utilized to ensure the authenticity and transparency of output errors throughout the reconstruction process. It is worth noting that smart contracts are designed to facilitate the management and query of on-chain data. Then, a novel swarm intelligence algorithm called EGWODA is designed to handle the issue which is low efficiency in the registration step of reconstruction. Finally, simulation results indicate the feasibility and efficiency of the BIRMS.
-@ARTICLE{10909358Liu2025,
-  author={Liu, Zewei and Hu, Chunqiang and Zhao, Ruifeng and Hu, Pengfei and Alrawais, Arwa and Xiang, Tao},
-  journal={IEEE Transactions on Network Science and Engineering}, 
-  title={Blockchain Assisted Industrial Data Registration and Reconstruction Management Scheme}, 
-  year={2025},
-  volume={12},
-  number={3},
-  pages={2345-2359},
-  keywords={Point cloud compression;Blockchains;Mathematical models;Translation;Particle swarm optimization;Manufacturing;Industrial Internet of Things;Image reconstruction;Accuracy;Three-dimensional displays;Blockchain;Industrial Internet of Things (IIOT);reconstruction;registration;swarm intelligence},
-  doi={10.1109/TNSE.2025.3547409}}
+
 
 
 Blockchain-Based Dynamic Cloud Data Integrity Auditing via Non-Leaf Node Sampling of Rank-Based Merkle Hash Tree (TNSE)：https://ieeexplore.ieee.org/document/10509016/
