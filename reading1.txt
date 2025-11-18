@@ -3,3 +3,5 @@ This paper introduces a cost-effective portable teletrauma system that assists h
 add more related works 
 
 read the experiment design
+
+experiment designed for motivations
