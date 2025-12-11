@@ -32,4 +32,8 @@ prepare the source data on appendix
 
 prepare the source data on appendix 
 
+prepare the network assignments
+
+prepare the network assignments
+
 
