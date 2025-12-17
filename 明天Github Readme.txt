@@ -38,7 +38,7 @@ prepare the network assignments
 
 prepare the network assignments
 
-prepare the anonymous github data 
+prepare the anonymous github data
 
 prepare the anonymous github data
 
