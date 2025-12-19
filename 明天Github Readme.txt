@@ -54,4 +54,6 @@ prepare the open source commands and figures (key codes)
 
 cheat it a formal project
 
+prepare the network exam
+
 
