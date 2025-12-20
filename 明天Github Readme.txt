@@ -46,6 +46,8 @@ prepare the anonymous github data
 
 prepare the assignment grades
 
+prepare the assignment
+
 prepare the assignment grades
 
 prepare the open source commands and figures (key codes)
