@@ -56,4 +56,5 @@ cheat it a formal project
 
 prepare the network exam
 
+submit the manuscript
 
